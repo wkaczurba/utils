@@ -75,7 +75,7 @@ def compare(d1 : dict, d2 : dict):
 
 # Common set:
 cs=common_set(deps1, deps2)
-print (f"Commons set: {cs}")
+#print (f"Commons set: {cs}")
 
 compare_results = compare(deps1, deps2)
 for dependency in compare_results.keys():
