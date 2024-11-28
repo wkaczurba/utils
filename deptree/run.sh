@@ -15,4 +15,6 @@ function get_files() {
 #    # /home/wkaczurba/dashboard/backend/pom.xml
 #}
 
+# TODO: Change it so uses arg params
+python3 process.py
 

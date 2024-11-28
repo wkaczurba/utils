@@ -1,4 +1,4 @@
-#import 
+# From: https://github.com/wkaczurba/utils
 
 import re
 
@@ -65,13 +65,13 @@ def compare(d1 : dict, d2 : dict):
     return result
         
 
-len1 = len(deps1.keys())
-len2 = len(deps2.keys())
-print (f"deps1 len= {len1}")
-print (f"deps2 len= {len2}")
+#len1 = len(deps1.keys())
+#len2 = len(deps2.keys())
+#print (f"deps1 len= {len1}")
+#print (f"deps2 len= {len2}")
 
-ins1 = len(intersection_as_list(deps1, deps2))
-print (f"ins1 len= {ins1}")
+#ins1 = len(intersection_as_list(deps1, deps2))
+#print (f"ins1 len= {ins1}")
 
 # Common set:
 cs=common_set(deps1, deps2)
